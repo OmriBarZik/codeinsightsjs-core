@@ -4,6 +4,7 @@
   "description": "",
   "main": "lib/src/index.js",
   "types": "lib/src/index.d.ts",
+  "bin": "lib/src/index.js",
   "scripts": {
     "build": "tsc",
     "build:watch": "nodemon --watch . --exec \"tsc\" --ext ts",
